@@ -26,8 +26,7 @@ button, input, textarea { font: inherit; }
 .site-header::before { content: ''; position: absolute; inset: 0; pointer-events: none; opacity: .2; background-image: linear-gradient(rgba(255,255,255,.08) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.08) 1px, transparent 1px); background-size: 64px 64px; mask-image: linear-gradient(to bottom, black, transparent 82%); }
 .nav { display: flex; justify-content: space-between; align-items: center; min-height: 88px; position: relative; z-index: 2; }
 .brand { display: inline-flex; gap: 10px; align-items: center; font-weight: 800; font-size: 17px; letter-spacing: -.5px; }
-.brand-mark { display: grid; place-items: center; width: 30px; height: 30px; border: 1px solid var(--lime); color: var(--lime); font-family: var(--mono); font-size: 13px; }
-.brand-mark span { color: var(--coral); }
+.brand-mark { display: block; width: 30px; height: 30px; border: 1px solid var(--lime); object-fit: cover; object-position: center 25%; }
 .brand-muted { color: #7c8b9d; font-weight: 500; }
 .nav-links { display: flex; gap: 28px; align-items: center; font-size: 13px; color: #bdc8d5; }
 .nav-links a { transition: color .2s ease; }
